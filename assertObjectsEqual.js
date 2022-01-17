@@ -58,3 +58,5 @@ const obj4 = {
 assertObjectsEqual(obj1, obj2);
 assertObjectsEqual(obj3, obj2);
 assertObjectsEqual(obj1, obj4);
+
+module.exports = assertObjectsEqual;
