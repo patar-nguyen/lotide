@@ -1,6 +1,6 @@
 const middle = require('../middle');
- const eqArrays = require('../eqArrays');
- const assertArraysEqual = require('../assertArraysEqual');
+const eqArrays = require('../eqArrays');
+const assertArraysEqual = require('../assertArraysEqual');
 
 console.log(middle([1])); // => []
 console.log(middle([1, 2])); // => []
